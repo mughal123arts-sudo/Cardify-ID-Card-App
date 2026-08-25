@@ -172,7 +172,7 @@ AppButton(
                 Icon(
                     Icons.Default.VerifiedUser,
                     contentDescription = null,
-                    tint = Color(0xFF25D366),
+                    tint = Color(0xFF128C7E),
                     modifier = Modifier.size(16.dp)
                 )
                 Spacer(Modifier.width(6.dp))
