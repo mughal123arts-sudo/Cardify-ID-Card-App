@@ -42,7 +42,7 @@ fun AdminLoginScreen(onLoginSuccess: () -> Unit) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp),
+            .padding(horizontal = 24.dp, vertical = 16.dp),
         contentAlignment = Alignment.Center
     ) {
         Column(
@@ -60,7 +60,8 @@ fun AdminLoginScreen(onLoginSuccess: () -> Unit) {
 
 Text(
     "For any query or assistance",
-    style = MaterialTheme.typography.bodySmall,
+    style = MaterialTheme.typography.bodyMedium,
+    fontWeight = FontWeight.Medium,
     color = MaterialTheme.colorScheme.onSurfaceVariant,
     textAlign = TextAlign.Center
 )
