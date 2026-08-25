@@ -58,8 +58,17 @@ fun AdminLoginScreen(onLoginSuccess: () -> Unit) {
 
             Spacer(Modifier.height(16.dp))
 
-            // ---- WhatsApp contact button (below logo, outside the card) ----
-            AppButton(
+Text(
+    "For any query or assistance",
+    style = MaterialTheme.typography.bodySmall,
+    color = MaterialTheme.colorScheme.onSurfaceVariant,
+    textAlign = TextAlign.Center
+)
+
+Spacer(Modifier.height(8.dp))
+
+// ---- WhatsApp contact button (below logo, outside the card) ----
+AppButton(
                 onClick = {
                     val intent = Intent(
                         Intent.ACTION_VIEW,
