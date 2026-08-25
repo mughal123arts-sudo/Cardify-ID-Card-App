@@ -86,7 +86,7 @@ AppButton(
                 },
                 shape = RoundedCornerShape(30.dp),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFF25D366),
+                    containerColor = Color(0xFF128C7E),
                     contentColor = Color.White
                 ),
                 modifier = Modifier.fillMaxWidth(0.75f).height(46.dp)
