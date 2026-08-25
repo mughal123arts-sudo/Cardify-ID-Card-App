@@ -80,7 +80,7 @@ fun AdminLoginScreen(onLoginSuccess: () -> Unit) {
                     containerColor = Color(0xFF25D366),
                     contentColor = Color.White
                 ),
-                modifier = Modifier.fillMaxWidth(0.85f).height(52.dp)
+                modifier = Modifier.fillMaxWidth(0.75f).height(46.dp)
             ) {
                 Icon(Icons.Default.Chat, contentDescription = null, tint = Color.White)
                 Spacer(Modifier.width(10.dp))
